@@ -6,6 +6,5 @@ target 'NYTimesHeadlines' do
   use_frameworks!
 
   # Pods for NYTimesHeadlines
-  pod 'lottie-ios'
 
 end

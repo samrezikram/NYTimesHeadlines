@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		41F890864255EC343F66D15C /* Pods_NYTimesHeadlines.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A67ABC1800A62A592309138 /* Pods_NYTimesHeadlines.framework */; };
+		ABB8F87A263EC366008C49D6 /* NYTimeApkiKeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8F879263EC366008C49D6 /* NYTimeApkiKeyService.swift */; };
+		ABB8F87C263EC3C2008C49D6 /* NYTimeApiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABB8F87B263EC3C2008C49D6 /* NYTimeApiKey.plist */; };
 		ABEEE140263EAA1C00E46247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEEE13F263EAA1C00E46247 /* AppDelegate.swift */; };
 		ABEEE142263EAA1C00E46247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEEE141263EAA1C00E46247 /* SceneDelegate.swift */; };
 		ABEEE144263EAA1C00E46247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEEE143263EAA1C00E46247 /* ViewController.swift */; };
@@ -16,8 +18,22 @@
 		ABEEE14C263EAA1F00E46247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEEE14A263EAA1F00E46247 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ABB8F87D263EC814008C49D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5A67ABC1800A62A592309138 /* Pods_NYTimesHeadlines.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesHeadlines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB8F879263EC366008C49D6 /* NYTimeApkiKeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimeApkiKeyService.swift; sourceTree = "<group>"; };
+		ABB8F87B263EC3C2008C49D6 /* NYTimeApiKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NYTimeApiKey.plist; sourceTree = "<group>"; };
 		ABEEE13C263EAA1C00E46247 /* NYTimesHeadlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesHeadlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEEE13F263EAA1C00E46247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABEEE141263EAA1C00E46247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +64,6 @@
 				D74B282A9504EF424D0451F6 /* Pods-NYTimesHeadlines.debug.xcconfig */,
 				E28F65173F9AC3725138AAD8 /* Pods-NYTimesHeadlines.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -59,6 +74,15 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		ABB8F878263EC34E008C49D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8F879263EC366008C49D6 /* NYTimeApkiKeyService.swift */,
+				ABB8F87B263EC3C2008C49D6 /* NYTimeApiKey.plist */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 		ABEEE133263EAA1C00E46247 = {
 			isa = PBXGroup;
@@ -81,6 +105,7 @@
 		ABEEE13E263EAA1C00E46247 /* NYTimesHeadlines */ = {
 			isa = PBXGroup;
 			children = (
+				ABB8F878263EC34E008C49D6 /* Resources */,
 				ABEEE13F263EAA1C00E46247 /* AppDelegate.swift */,
 				ABEEE141263EAA1C00E46247 /* SceneDelegate.swift */,
 				ABEEE143263EAA1C00E46247 /* ViewController.swift */,
@@ -103,7 +128,8 @@
 				ABEEE138263EAA1C00E46247 /* Sources */,
 				ABEEE139263EAA1C00E46247 /* Frameworks */,
 				ABEEE13A263EAA1C00E46247 /* Resources */,
-				62D00CBEBD3D90BD18934936 /* [CP] Embed Pods Frameworks */,
+				ABB8F87D263EC814008C49D6 /* CopyFiles */,
+				ABB8F87F263EC83F008C49D6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABEEE14C263EAA1F00E46247 /* LaunchScreen.storyboard in Resources */,
+				ABB8F87C263EC3C2008C49D6 /* NYTimeApiKey.plist in Resources */,
 				ABEEE149263EAA1F00E46247 /* Assets.xcassets in Resources */,
 				ABEEE147263EAA1C00E46247 /* Main.storyboard in Resources */,
 			);
@@ -160,22 +187,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		62D00CBEBD3D90BD18934936 /* [CP] Embed Pods Frameworks */ = {
+		ABB8F87F263EC83F008C49D6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NYTimesHeadlines/Pods-NYTimesHeadlines-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+			);
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NYTimesHeadlines/Pods-NYTimesHeadlines-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYTimesHeadlines/Pods-NYTimesHeadlines-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nCONFIG_FILE_BASE_NAME=\"NYTimeApiKey\"\n\nCONFIG_FILE_NAME=${CONFIG_FILE_BASE_NAME}.plist\nSAMPLE_CONFIG_FILE_NAME=${CONFIG_FILE_BASE_NAME}-Sample.plist\n\nCONFIG_FILE_PATH=$SRCROOT/$PRODUCT_NAME/$CONFIG_FILE_NAME\nSAMPLE_CONFIG_FILE_PATH=$SRCROOT/$PRODUCT_NAME/$SAMPLE_CONFIG_FILE_NAME\n\nif [ -f \"$CONFIG_FILE_PATH\" ]; then\n  echo \"$CONFIG_FILE_PATH exists.\"\nelse\n  echo \"$CONFIG_FILE_PATH does not exist, copying sample\"\n  cp -v \"${SAMPLE_CONFIG_FILE_PATH}\" \"${CONFIG_FILE_PATH}\"\nfi\n";
 		};
 		D692D0BC0F3DD920CDD9D3DE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -208,6 +235,7 @@
 			files = (
 				ABEEE144263EAA1C00E46247 /* ViewController.swift in Sources */,
 				ABEEE140263EAA1C00E46247 /* AppDelegate.swift in Sources */,
+				ABB8F87A263EC366008C49D6 /* NYTimeApkiKeyService.swift in Sources */,
 				ABEEE142263EAA1C00E46247 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
