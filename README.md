@@ -37,9 +37,9 @@ open -a Xcode NYTimesHeadlines.xcworkspace
 * ### Unit Test Coverage Result:
 
 
-| col 1      |
+| Results      |
 |------------|
-| <img src="https://github.com/samrezikram/NYTimesHeadlines/blob/master/Common/TestCoverage.png" width="250"> |
+| <img src="https://github.com/samrezikram/NYTimesHeadlines/blob/master/Common/TestCoverage.png" width="750" height="187"> |
 
 License
 MIT
