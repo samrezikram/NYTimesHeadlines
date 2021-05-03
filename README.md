@@ -11,6 +11,13 @@
 
 ## Installation:
 
+Install the dependencies
+
+```sh
+cd NYTimesHeadlines
+pod install
+open -a Xcode NYTimesHeadlines.xcworkspace
+```
 
 * ### Improvements:
 
@@ -22,6 +29,11 @@
 
 ## Features
 - [x] Network Reachability
+
+License
+MIT
+
+Free Software, Hell Yeah!
 
 
 
