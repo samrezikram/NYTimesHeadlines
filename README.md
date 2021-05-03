@@ -14,9 +14,9 @@
 Install the dependencies
 
 ```sh
-cd NYTimesHeadlines
-pod install
-open -a Xcode NYTimesHeadlines.xcworkspace
+1- cd NYTimesHeadlines
+2- pod install
+3- open -a Xcode NYTimesHeadlines.xcworkspace
 ```
 
 * ### Improvements:
@@ -34,8 +34,15 @@ open -a Xcode NYTimesHeadlines.xcworkspace
 - [x] Secure API Token
 
 
-* ### Unit Test Coverage Result:
+* ##### Run Unit Test
 
+```sh
+1- cd NYTimesHeadlines
+2- pod install
+3- open -a Xcode NYTimesHeadlines.xcworkspace
+4- CMD + U
+```
+* ### Unit Test Coverage Result:
 
 | Results      |
 |------------|
