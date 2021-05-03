@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>NYTimesHeadlinesTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>ABB8F8B0264005F8008C49D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>ABEEE13B263EAA1C00E46247</key>
 		<dict>
 			<key>primary</key>
