@@ -6,5 +6,10 @@ target 'NYTimesHeadlines' do
   use_frameworks!
 
   # Pods for NYTimesHeadlines
-
+  
+  pod 'ProgressHUD'
+  
+  # optional pods if you wanna go with almaofire approch
+  pod 'Alamofire', '~> 5.2'
+  pod 'ReachabilitySwift'
 end

@@ -5,8 +5,9 @@
 //  Created by Samrez Ikram on 02/05/2021.
 //
 
+// Get Api Key using stroed property, Shell script is alos added in case we want to secure API Key.
 import Foundation
-private var apiKey: String {
+public var apiKey: String {
   get {
     // 1
     guard let filePath = Bundle.main.path(forResource: "NYTimeApiKey", ofType: "plist") else {
