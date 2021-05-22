@@ -28,7 +28,7 @@ Install the dependencies
 * #### Under The Hood:
 
 ## Features
-- [x] MVVP
+- [x] MVVM
 - [x] Network Reachability
 - [x] API call using URL Session & Alamofire Impl
 - [x] Secure API Token
