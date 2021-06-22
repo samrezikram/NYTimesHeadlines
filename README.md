@@ -46,7 +46,7 @@ Install the dependencies
 
 | Results      |
 |------------|
-| <img src="https://github.com/samrezikram/NYTimesHeadlines/blob/master/Common/TestCoverage.png" width="750" height="187"> |
+| <img src="https://github.com/samrezikram/NYTimesHeadlines/blob/master/Common/TestCoverage.png" width="480" height="1039"> |
 
 License
 MIT
